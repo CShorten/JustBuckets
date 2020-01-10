@@ -35,3 +35,26 @@ Assembling the dataset
 
 
 <h1> Data Annotation </h1>
+
+<h1> Training an Image Classifier </h1>
+
+<h1> Training an Object Detector </h1>
+
+<h1> Training an Action Recognition Model with the Markov Property </h1>
+The next stage of this pipeline is to detect wether a basket was scored in a given time window or not, easily the most challenging component of this project. 
+
+<h2> The Markov Property? </h2>
+There are many ways to think about integrating temporal information into a vision model:
+<ul>
+  <li> Classify frames individually, use a heuristic or a learned parameter to aggregate scores </li>
+  <li> CNN + LSTM </li>
+  <li> CNN + Transformer </li>
+  <li> 3D CNN </li>
+  <li> Stack past frames (Markov Property) </li>
+     <ul>
+       <li> In AlphaGo, AlphaGo Zero, and AlphaZero, the last 8 states of the game board are stacked together to form the state representation to the agent at the current timestep. </li>
+     </ul>
+ </ul>
+
+
+
