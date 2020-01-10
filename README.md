@@ -33,8 +33,6 @@ Assembling the dataset
     </ul>
 </ol>
 
-<h4> Mistake made with Resizing Frames with PIL! </h4>
-However, when building large datasets, you have to be mindful of how things scale with respect to labor. <b> Lesson Learned: </b> merged the frame extraction and resizing into the sample loop with the cv2 video reader!
 
 <h1> Data Annotation </h1>
 The otuput of our Data Collection pipeline is 100K 320 x 180 images from 5 different games. We want to label this data to train 3 Deep Convolutional Neural Networks:
