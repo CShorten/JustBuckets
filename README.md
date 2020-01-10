@@ -44,14 +44,15 @@ The otuput of our Data Collection pipeline is 100K 320 x 180 images from 5 diffe
 
 An important component of this is that the output of each model is facilitating the data engineering for the next model. Our image classifier first detects wether there is a rim in the image at all. Our object detection model will then find the rim and crop it out for the action recognition model. The action recognition model will take a stack of the k last frames and classify these sequences as either a 'basket' or 'no basket'.
 
-<h1> Training an Image Classifier </h1>
+<h1> Training Models </h1>
+<h2> Training an Image Classifier </h2>
 
-<h1> Training an Object Detector </h1>
+<h2> Training an Object Detector </h2>
 
-<h1> Training an Action Recognition Model with the Markov Property </h1>
+<h2> Training an Action Recognition Model with the Markov Property </h2>
 The next stage of this pipeline is to detect wether a basket was scored in a given time window or not, easily the most challenging component of this project. 
 
-<h2> The Markov Property? </h2>
+<h4> The Markov Property? </h4>
 There are many ways to think about integrating temporal information into a vision model:
 <ul>
   <li> Classify frames individually, use a heuristic or a learned parameter to aggregate scores </li>
