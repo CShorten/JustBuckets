@@ -12,6 +12,9 @@ Luckily for me, I came across a great program called Scoutsfocus that made these
 <br>
 What if a <b>computer vision model</b> could make highlight reels? Costing you $0 and taking a matter of hours rather than weeks. This project explores this idea through a series of Deep Convolutional Neural Networks that crop full length games into individual plays, and extract made baskets from the game. 
 
+<h1> Project Workflow </h1>
+The following sections will describe each stage of the pipeline of building a Deep Learning system for this task. The workflow consists of Data Collection --> Data Annotation --> Training Models --> Hyperparameter Optimization --> Performance Analysis. This report ends with a discussion about some ideas around the project such as the generalization of this system, building large image datasets with semi-supervised learning, and adjusting the model in deployment with active learning.
+
 <h1> Data Collection </h1>
 Assembling the dataset
 <h2> Collection Pipeline </h2>
