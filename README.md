@@ -4,7 +4,7 @@
 Before I began my journey studying Deep Learning and Artificial Intelligence, I was playing Division 1 basketball at Florida Atlantic Unversity. In order to get a Division 1 basketball scholarship, I had to spend my Junior -> Senior summer of high school playing in a series of tournaments and camps. 
 <br>
 <br>
-In addition to endorsements from past coaches and camp directors, it helps enormously to have a highlight reel resume that college coaches can use to evaluat eyour fit for their program. Unless you are one of the top players in the country, you will have to make this highlight reel yourself. 
+In addition to endorsements from past coaches and camp directors, it helps enormously to have a highlight reel resum&eacute; that college coaches can use to evaluate your fit for their program. Unless you are one of the top players in the country, you will have to make this highlight reel yourself. 
 <br>
 <br>
 Luckily for me, I came across a great program called Scoutsfocus that made these highlight reels for you from a collection of 3 games at their 1-day event. These highlight reels are great, but they cost ~$100 and take about 6-8 weeks to make. What if a computer vision model could make highlight reels? Costing you $0 and taking a matter of hours rather than weeks. This project explores this idea through a series of Deep Convolutional Neural Networks that crop full length games into individual plays, and extract made baskets from the game. 
