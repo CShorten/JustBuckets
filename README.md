@@ -1,6 +1,6 @@
 # JustBuckets
 <h5> Automated Highlight Reels from Basketball Games with Deep Convolutional Neural Networks </h5>
-
+<h3> Project Motivation </h3>
 Before I began my journey studying Deep Learning and Artificial Intelligence, I was playing Division 1 basketball at Florida Atlantic Unversity. In order to get a Division 1 basketball scholarship, I had to spend my Junior -> Senior summer of high school playing in a series of tournaments and camps. 
 <br>
 <br>
