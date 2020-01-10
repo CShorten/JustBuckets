@@ -36,6 +36,7 @@ Assembling the dataset
 
 <h1> Data Annotation </h1>
 The output of our Data Collection pipeline is 100K 320 x 180 images from 5 different games. We want to label this data to train 3 Deep Convolutional Neural Networks:
+<br>
 <ul>
   <li> Image Classification of Rim vs. No Rim </li>
   <li> Objet Detection of the Rim </li>
