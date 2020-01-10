@@ -35,6 +35,14 @@ Assembling the dataset
 
 
 <h1> Data Annotation </h1>
+The otuput of our Data Collection pipeline is 100K 320 x 180 images from 5 different games. We want to label this data to train 3 Deep Convolutional Neural Networks:
+<ul>
+  <li> Image Classification of Rim vs. No Rim </li>
+  <li> Objet Detection of the Rim </li>
+  <li> Action Recognition of made baskets </li>
+</ul>
+
+An important component of this is that the output of each model is facilitating the data engineering for the next model. Our image classifier first detects wether there is a rim in the image at all. Our object detection model will then find the rim and crop it out for the action recognition model. The action recognition model will take a stack of the k last frames and classify these sequences as either a 'basket' or 'no basket'.
 
 <h1> Training an Image Classifier </h1>
 
