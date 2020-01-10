@@ -22,9 +22,6 @@ Assembling the dataset
   <li> Download full games from YouTube </li>
   <li> Extract frames with cv2 </li>
     <ul>
-      <li> Emphasis on Organization and avoiding naming conflicts between cities and games </li>
-      <li> Passed in Source Directory of Games, Name of Game, Directory to write frames in </li>
-      <li> ms per frame </li>
       <li> Starting experiments with 20K frames from 5 games | 100K images in dataset </li>
     </ul>
   <li> Resize frames with PIL </li>
@@ -38,7 +35,7 @@ Assembling the dataset
 
 
 <h1> Data Annotation </h1>
-The otuput of our Data Collection pipeline is 100K 320 x 180 images from 5 different games. We want to label this data to train 3 Deep Convolutional Neural Networks:
+The output of our Data Collection pipeline is 100K 320 x 180 images from 5 different games. We want to label this data to train 3 Deep Convolutional Neural Networks:
 <ul>
   <li> Image Classification of Rim vs. No Rim </li>
   <li> Objet Detection of the Rim </li>
