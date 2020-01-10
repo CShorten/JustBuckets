@@ -46,6 +46,15 @@ An important component of this is that the output of each model is facilitating 
 
 <h1> Training Models </h1>
 <h2> Training an Image Classifier </h2>
+The first model to train is an image classifier that distinguishes between frames with a rim in the scene or not. Naturally, there cannot be a basket in the video sequence if there isn't even a rim in it. This model will become a part of the data annotation pipeline to preprocess images that do not need to be considered when labeling rims with a bounding box.
+<h4> Image Classifier Pipeline </h4>
+<ul>
+  <li> Load pre-trained ResNet50 </li>
+  <li> Data Augmentation Parameters </li>
+  <li> Fine-tune on new dataset </li>
+</ul>
+
+<h3> Optimizing this workflow is described below in "Hyperparameter Optimization" </h3>
 
 <h2> Training an Object Detector </h2>
 
