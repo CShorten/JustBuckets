@@ -56,5 +56,10 @@ There are many ways to think about integrating temporal information into a visio
      </ul>
  </ul>
 
-
+<h1> Notes on this Project </h1>
+<h2> Is this a Meta Learning Problem? </h2>
+One of the most interesting trends in Deep Learning and AI is Meta-Learning. Meta-Learning can be a confusing term that is thrown around with things like AutoML, Neural Architecture Search, Hypernetworks, or Few-Shot Learning and Task Adaptation. In this context, I use the term "Meta-Learning" to describe task adaptation as is used in <a href = "http://cs330.stanford.edu/">Dr. Finn's CS 330 "Deep Multi-Task and Meta Learning"</a> course (lectures to be uploaded soon).
+<br>
+<br>
+I think we naturally think of applying Meta-Learning to reinforcement learning problems. Examples of this are questions like "How can we train an agent to master 5 atari games and generalize to a 6th?". I think this project shows an interesting examples of where you would want to use Meta-Learning algorithms for classification and detection models trained with supervised, or semi-/self- supervised learning.
 
